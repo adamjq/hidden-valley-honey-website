@@ -1,3 +1,8 @@
+/*
+Base orange: #e67e22
+Darker orange: #cf6d17
+*/
+
 /* ------------------------------------------------*/
 /* BASIC SETUP */
 /* ------------------------------------------------*/
@@ -50,14 +55,17 @@ h1, h2 {
 
 
 h2 {
-    font-size: 2.4rem;
-    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
 }
 
 
 /* ------------------------------------------------*/
 /* BUTTONS */
 /* ------------------------------------------------*/
+
+/*
 
 .btn:link, 
 .btn:visited  {
@@ -85,6 +93,7 @@ h2 {
     background-color: #cf6d17;
 }
 
+*/
 
 /* ------------------------------------------------*/
 /* HEADER */
@@ -105,4 +114,38 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 10rem;
+    width: auto;
+    float: left;
+    margin-top: 2rem;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 5rem;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: solid 0.2rem transparent;
+    padding: 0.8rem 0;
+    color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: solid 0.2rem #e67e22;
+    transition: border-bottom 0.2s;
 }
