@@ -14,3 +14,30 @@ html {
     font-family: 'Lato', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
 }
+
+.row {
+    max-width: 1140px;
+    
+    /* To center content */
+    margin: 0 auto;
+}
+
+header {
+    /* Hero image centered and fills whole viewport */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/waiheke-island-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+}
