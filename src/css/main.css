@@ -1,3 +1,7 @@
+/* ------------------------------------------------*/
+/* BASIC SETUP */
+/* ------------------------------------------------*/
+
 *,
 *::after,
 *::before {
@@ -17,6 +21,10 @@ html {
 }
 
 
+/* ------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------------*/
+
 .row {
     max-width: 1140px;
     
@@ -24,23 +32,10 @@ html {
     margin: 0 auto;
 }
 
-header {
-    /* Hero image centered and fills whole viewport */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/waiheke-island-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
 
-
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
+/* ------------------------------------------------*/
+/* HEADINGS */
+/* ------------------------------------------------*/
 
 h1, h2 {
     margin: 0;
@@ -60,16 +55,21 @@ h2 {
 }
 
 
+/* ------------------------------------------------*/
+/* BUTTONS */
+/* ------------------------------------------------*/
+
 .btn:link, 
 .btn:visited  {
     display: inline-block;
     padding: 1rem 3rem;
+    font-size: 1.6rem;
     font-weight: 300;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 0.1rem;
-    word-spacing: 0.3rem;
-    color: #fff;  
+    color: #fff; 
+    background-color: #e67e22;
+    transition: background-color 0.2s;
 }
 
 
@@ -79,7 +79,30 @@ h2 {
     border-radius: 10rem;
 }
 
+
 .btn:hover,
 .btn:active {
     background-color: #cf6d17;
+}
+
+
+/* ------------------------------------------------*/
+/* HEADER */
+/* ------------------------------------------------*/
+
+header {
+    /* Hero image centered and fills whole viewport */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/waiheke-island-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
