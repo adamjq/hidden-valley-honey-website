@@ -40,7 +40,7 @@ html {
 }
 
 section {
-    padding: 8rem 0;
+    padding: 8rem 0 0 0;
 }
 
 .box {
@@ -58,6 +58,7 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
+
 h1, h2 {
     color: #fff;
     text-align: center;
@@ -65,11 +66,13 @@ h1, h2 {
     word-spacing: 0.3rem;
 }
 
+
 h2 {
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
 }
+
 
 h3 {
     font-size: 3.6rem;
@@ -87,6 +90,7 @@ h3:after {
     margin: 0 auto;
     margin-top: 3rem;
 }
+
 
 h4 {
    font-size: 2.2rem;
@@ -211,6 +215,7 @@ header {
     transition: border-bottom 0.2s;
 }
 
+
 /* ------------------------------------------------*/
 /* PRODUCTS */
 /* ------------------------------------------------*/
@@ -219,6 +224,21 @@ header {
     margin-bottom: 4rem;
 }
 
+
+/* ------------------------------------------------*/
+/* ABOUT */
+/* ------------------------------------------------*/
+
+.section-about .long-copy {
+    margin-bottom: 4rem;
+}
+
+/* gMaps API key: AIzaSyDaHbkQspNu0PqW2QUtzmnoFwCKq29qVK4 */
+
+#map {
+    height: 40rem;
+    width: 40rem;
+}
 
 /* ------------------------------------------------*/
 /* GALLERY */
@@ -232,6 +252,8 @@ header {
 .gallery-showcase {
     list-style: none;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -246,7 +268,7 @@ header {
     width: 100%;
     margin 0;
     overflow: hidden;
-        background-color: #000;
+    background-color: #000;
 }
 
 
