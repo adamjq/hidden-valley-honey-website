@@ -297,9 +297,6 @@ header {
     margin-bottom: 4rem;
 }
 
-/* gMaps API key: AIzaSyDaHbkQspNu0PqW2QUtzmnoFwCKq29qVK4 */
-
 #map {
-    height: 40rem;
-    width: 40rem;
+    margin-bottom: 8rem;
 }
