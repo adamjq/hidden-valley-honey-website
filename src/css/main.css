@@ -89,7 +89,7 @@ h3:after {
 }
 
 h4 {
-   font-size: 2.4rem;
+   font-size: 2.2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -102,13 +102,12 @@ p {
     line-height: 145%;
 }
 
-.products-long-copy {
+
+.long-copy {
     width: 70%;
     margin: 0 auto 2rem auto;
 }
 
-.box p {
-}
 
 /* ------------------------------------------------*/
 /* ICONS */
@@ -116,6 +115,7 @@ p {
 
 .icon {
     color: #E87E04;
+    padding-left: 1rem;
 }
 
 /* ------------------------------------------------*/
@@ -180,16 +180,19 @@ header {
     margin-top: 2rem;
 }
 
+
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 5rem;
 }
 
+
 .main-nav li {
     display: inline-block;
     margin-left: 4rem;
 }
+
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -201,8 +204,62 @@ header {
     color: #fff;
 }
 
+
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: solid 0.2rem #E87E04;
     transition: border-bottom 0.2s;
+}
+
+/* ------------------------------------------------*/
+/* PRODUCTS */
+/* ------------------------------------------------*/
+
+.section-products .long-copy {
+    margin-bottom: 4rem;
+}
+
+
+/* ------------------------------------------------*/
+/* GALLERY */
+/* ------------------------------------------------*/
+
+.section-gallery {
+    padding: 0;
+}
+
+
+.gallery-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+
+.gallery-showcase li {
+    display: block;
+    float: left;
+    width: 33.3%;
+}
+
+
+.gallery-photo {
+    width: 100%;
+    margin 0;
+    overflow: hidden;
+        background-color: #000;
+}
+
+
+.gallery-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+}
+
+
+.gallery-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
 }
