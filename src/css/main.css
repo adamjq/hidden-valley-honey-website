@@ -40,28 +40,55 @@ p {
     margin: 0 auto;
 }
 
+section {
+    padding: 8rem 0;
+}
 
 /* ------------------------------------------------*/
 /* HEADINGS */
 /* ------------------------------------------------*/
 
-h1, h2 {
+h1, h2, h3, h4 {
     margin: 0;
-    color: #fff;
-    text-align: center;
     font-size: 5rem;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
     letter-spacing: 0.1rem;
     word-spacing: 0.3rem;
 }
-
 
 h2 {
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
 }
+
+h3 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* The line that appears after the h3 element */
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 10rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+h4 {
+   font-size: 2.4rem; 
+}
+
 
 
 /* ------------------------------------------------*/
