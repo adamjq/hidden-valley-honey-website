@@ -25,6 +25,17 @@ html {
     font-weight: 300;
     font-family: 'Lato', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 
@@ -39,13 +50,16 @@ html {
     margin: 0 auto;
 }
 
+
 section {
     padding: 8rem 0 0 0;
 }
 
+
 .box {
     padding: 1%;
 }
+
 
 /* ------------------------------------------------*/
 /* HEADINGS */
@@ -225,9 +239,59 @@ header {
 }
 
 
+* ----------------------------------------------- */
+/* GALLERY */
+/* ----------------------------------------------- */
+
+.section-gallery {
+    padding: 0;
+}
+
+.gallery-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.gallery-showcase li {
+    display: block;
+    float: left;
+    width: 33.3%;
+}
+
+.gallery-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.gallery-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.gallery-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
 /* ------------------------------------------------*/
 /* ABOUT */
 /* ------------------------------------------------*/
+
+
+.section-about {
+    background-color: #f4f4f4;
+}
 
 .section-about .long-copy {
     margin-bottom: 4rem;
@@ -238,50 +302,4 @@ header {
 #map {
     height: 40rem;
     width: 40rem;
-}
-
-/* ------------------------------------------------*/
-/* GALLERY */
-/* ------------------------------------------------*/
-
-.section-gallery {
-    padding: 0;
-}
-
-
-.gallery-showcase {
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-
-.gallery-showcase li {
-    display: block;
-    float: left;
-    width: 33.3%;
-}
-
-
-.gallery-photo {
-    width: 100%;
-    margin 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-
-.gallery-photo img {
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-    opacity: 0.7;
-}
-
-
-.gallery-photo img:hover {
-    transform: scale(1.03);
-    opacity: 1;
 }
