@@ -100,7 +100,7 @@ h3:after {
     height: 2px;
     background-color: #E87E04;
     content: " ";
-    width: 20rem;
+    width: 10rem;
     margin: 0 auto;
     margin-top: 3rem;
 }
@@ -294,9 +294,18 @@ header {
 }
 
 .section-about .long-copy {
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
+
+/* ------------------------------------------------*/
+/* MAP */
+/* ------------------------------------------------*/
+
+
 #map {
+    padding-top: 0;
+    width: 100%;
+    height: 50rem;
     margin-bottom: 8rem;
 }
