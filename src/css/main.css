@@ -162,10 +162,7 @@ a:active {
 /* BUTTONS */
 /* ------------------------------------------------*/
 
-/*
-
-.btn:link, 
-.btn:visited  {
+input[type=submit] {
     display: inline-block;
     padding: 1rem 3rem;
     font-size: 1.6rem;
@@ -175,22 +172,15 @@ a:active {
     color: #fff; 
     background-color: #E87E04;
     transition: background-color 0.2s;
-}
-
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #E87E04;
     border-radius: 10rem;
 }
 
 
-.btn:hover,
-.btn:active {
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17;
 }
 
-*/
 
 /* ------------------------------------------------*/
 /* HEADER */
@@ -361,6 +351,33 @@ header {
     margin-bottom: 8rem;
 }
 
+
+.contact-form {
+    font-size: 1.6rem;
+    width: 60%;
+    margin: 4rem auto 0 auto;
+}
+
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+}
+
+
+textarea {
+    height: 10rem;
+}
+
+
+/* Removes blue outline created by the browser */
+*:focus {
+    outline: none
+}
 
 /* ------------------------------------------------*/
 /* MAP */
