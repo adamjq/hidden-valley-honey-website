@@ -267,6 +267,7 @@ header {
     border-radius: 0.5rem;
     width: 90%;
     margin: 0 auto;
+    box-shadow: 0 0.2rem 0.2rem #efefef;
 }
 
 
@@ -274,6 +275,17 @@ header {
     padding: 1.5rem;
 }
 
+
+.product-box div:first-child {
+    background-color: #fafafa;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+
+.product-box div:last-child {
+
+}
 
 .product-image {
     border-top: 0.1rem solid #eaeaea;
