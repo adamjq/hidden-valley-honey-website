@@ -136,6 +136,28 @@ p {
     padding-left: 1rem;
 }
 
+
+/* ------------------------------------------------*/
+/* LINKS */
+/* ------------------------------------------------*/
+
+a:link,
+a:visited {
+    color: #E87E04;
+    text-decoration: none;
+    border-bottom: 0.1rem solid #E87E04;
+    padding-bottom: 0.1rem;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 0.1rem solid transparent;
+}
+
+
 /* ------------------------------------------------*/
 /* BUTTONS */
 /* ------------------------------------------------*/
@@ -180,6 +202,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 
@@ -236,6 +259,29 @@ header {
 
 .section-products .long-copy {
     margin-bottom: 4rem;
+}
+
+
+.product-box {
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.product-box div {
+    padding: 1.5rem;
+}
+
+
+.product-image {
+    border-top: 0.1rem solid #eaeaea;
+}
+
+
+.product-image img {
+    width: 100%;
 }
 
 
@@ -303,13 +349,14 @@ header {
 /* CONTACT */
 /* ------------------------------------------------*/
 
-
+.section-contact {
+    margin-bottom: 8rem;
+}
 
 
 /* ------------------------------------------------*/
 /* MAP */
 /* ------------------------------------------------*/
-
 
 #map {
     width: 100%;
