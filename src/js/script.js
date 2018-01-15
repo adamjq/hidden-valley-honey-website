@@ -3,7 +3,7 @@
 var map = new GMaps({
       el: '#map',
       lat: -36.786,
-      lng: 175.235,
+      lng: 175.2,
       zoom: 11         
     });
 
