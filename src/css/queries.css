@@ -92,5 +92,18 @@
     .section-contact {
         margin-bottom: 0;
     }
+    
+    .map-box {
+        padding: 8rem 3rem;
+    }
+    
+    .map-box h4 { 
+        font-size: 1.6rem;
+    }
+    
+    .map-box p {
+        font-size: 1.3rem;
+    }
 }
+
 
