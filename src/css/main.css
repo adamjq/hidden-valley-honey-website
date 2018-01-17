@@ -428,6 +428,8 @@ textarea {
     padding-bottom: 1rem;
 }
 
+/* Styling for index.php file if included */
+
 .form-messages {
     width: 70%;
     margin: 0 auto;

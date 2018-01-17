@@ -27,7 +27,7 @@
     $email_headers = "From: $name <$email>";
 
     // Send the email.
-    mail($recipient, $subject, $email_content, $email_headers)
+    mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
     header("Location: https://adamjq.github.io/hidden-valley-honey-2017/index.php?success=1#form");
