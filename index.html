@@ -136,50 +136,65 @@
     
     
     <section id="contact" class="section-contact">
-        <div class="row">
-            <h3>Contact Us</h3>
-        </div>
         
-        <div class="row">
-            <form method="post" action="#" class="contact-form">
-                
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name</label>
+        <div id="form">
+            
+            <div class="row">
+                <h3>Contact Us</h3>
+            </div>
+
+            <div class="row">
+                <form method="post" action="mailer.php" class="contact-form">
+
+                    <div class="row">
+                        <div class="form-messages success">
+                            Thank you! Your message has been sent.
+                        </div>
+                        
+                        <div class="form-messages error">
+                            Something went wrong!! Please try again.
+                        </div>
                     </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name" required>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="email" id="email" placeholder="Your email" required>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Message</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                    </div>
-                </div>
-                
-                <div class="row">
+                    
+                    <div class="row">
                         <div class="col span-1-of-3">
-                            <label>&nbsp;</label>
+                            <label for="name">Name</label>
+                        </div>
+
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="submit" value="Submit">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
                         </div>
                     </div>
-            
-            </form>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+
+                </form>
+            </div>
         </div>
     </section>
     
