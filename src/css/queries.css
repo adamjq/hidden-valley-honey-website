@@ -85,6 +85,14 @@
         padding: 25px 0; 
     }
     
+    .gallery-1 {
+        display: none;
+    }
+    
+    .gallery-showcase li {
+        width: 100%;
+    }
+    
     .contact-form {
         width: 100%; 
     }
