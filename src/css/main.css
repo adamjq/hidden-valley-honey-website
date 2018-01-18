@@ -190,7 +190,10 @@ input[type=submit]:active {
 header {
     /* Hero image centered and fills whole viewport */
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/waiheke-island-hero.jpg);
+    /* alternative background */ /*
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/waiheke-island-hero.jpg);
+    */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hives-longshot-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
