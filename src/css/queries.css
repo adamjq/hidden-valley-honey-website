@@ -59,6 +59,11 @@
         margin-left: 0%;
     }
     
+    .product-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
     .section-gallery {
         padding-bottom: 0;
     }
