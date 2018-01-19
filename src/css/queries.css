@@ -70,19 +70,12 @@
     
     .contact-form {margin: 0;}
     
-    .footer-left-div,
-    .footer-right-div {
-        width: 50%;
+    .social-links {
+        text-align: center;
     }
-
+    
 }
 
-/* To account for footer nav bar */
-@media only screen and (max-width: 630px) {
-    .footer-left-div {
-        display: none;
-    }
-}
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
