@@ -46,7 +46,7 @@
         </div>
         
         <div class="row">
-            <div class="col span-1-of-3 box">
+            <div class="col span-1-of-2 box">
                 <div class="product-box">
                     <div>
                         <h4>Lorem ipsum</h4>
@@ -58,7 +58,7 @@
                 </div>
             </div>
             
-            <div class="col span-1-of-3 box">
+            <div class="col span-1-of-2 box">
                 <div class="product-box">
                     <div>
                         <h4>Lorem ipsum</h4>
@@ -70,36 +70,25 @@
                 </div>
             </div>
             
-            <div class="col span-1-of-3 box">
-                <div class="product-box">
-                    <div>
-                        <h4>Lorem ipsum</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/400x400" alt="Placeholder Image">
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     
     
      <section id="gallery" class="section-gallery">
-            <ul class="gallery-showcase clearfix">
+            <ul class="gallery-showcase clearfix gallery-1">
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/hives-1-min.jpg" alt="Bee Hives">
                     </figure>
                 </li>
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/bee-1-min.jpg" alt="Bee on Flower">
                     </figure>
                 </li>
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/bush-2-min.jpg" alt="New Zealand Bush">
                     </figure>
                 </li>
 
@@ -107,17 +96,17 @@
             <ul class="gallery-showcase clearfix">
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/bush-1-min.jpg" alt="Polaris in New Zealand Bush">
                     </figure>
                 </li>
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/hives-2-min.jpg" alt="Bee Hives Close Shot">
                     </figure>
                 </li>
                 <li>
                     <figure class="gallery-photo">
-                        <img src="src/img/waiheke-island-hero.jpg" alt="">
+                        <img src="src/img/bee-flowers-min.jpg" alt="Bee Amongst Flowers">
                     </figure>
                 </li>
             </ul>
