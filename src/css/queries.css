@@ -85,6 +85,10 @@
         padding: 25px 0; 
     }
     
+    .section-products {
+        margin-bottom: 0;
+    }
+    
     .gallery-1 {
         display: none;
     }
@@ -95,6 +99,10 @@
     
     .contact-form {
         width: 100%; 
+    }
+    
+    .section-about .long-copy  {
+        margin-bottom: 0;
     }
     
     .section-contact {
