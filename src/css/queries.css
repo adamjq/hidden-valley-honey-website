@@ -47,6 +47,7 @@
 
     /* Hide navigation for smaller devices */
     .main-nav { display: none; }
+    .sticky { display: none; }
 
     h1 { font-size: 29px; }
     h2 { font-size: 18px; }
