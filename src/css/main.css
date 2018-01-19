@@ -258,11 +258,15 @@ header {
     margin-bottom: 4rem;
 }
 
+.section-products {
+    margin-bottom: 8rem;
+}
+
 
 .product-box {
     background-color: #f4f4f4;
     border-radius: 0.5rem;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     -webkit-box-shadow: 0 0.2rem 0.2rem #efefef;
     box-shadow: 0 0.2rem 0.2rem #efefef;
@@ -291,7 +295,7 @@ header {
 }
 
 
-* ----------------------------------------------- */
+/* ----------------------------------------------- */
 /* GALLERY */
 /* ----------------------------------------------- */
 
