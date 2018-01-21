@@ -5,7 +5,7 @@ I designed and coded this single page website for Hidden Valley Honey, a New Zea
 The draft of the site is hosted on Github Pages and can be viewed [here](https://adamjq.github.io/hidden-valley-honey-website/).
 
 <p align="center">
-  <img src="/screenshots/hidden-valley-honey-screenshot.png" width=90%>
+  <img src="/screenshots/hidden-valley-honey-screenshot.png" width=100%>
 </p>
 
 ### Notable features:
