@@ -212,30 +212,20 @@
 
     <footer>
         <div class="row">
-            <div class="col span-1-of-2 footer-left-div">
-                <ul class="footer-nav">
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div class="col span-1-of-2 footer-right-div">
-                <ul class="social-links">
-                    <li>
-                        <a href="https://www.facebook.com/Hidden-Valley-Honey-Company-NZ-658143510995138/" target="_blank">
-                            <i class="ion-social-facebook"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+               <ul class="social-links">
+                  <li>
+                     <a href="https://www.facebook.com/Hidden-Valley-Honey-Company-NZ-658143510995138/" target="_blank">
+                        <i class="ion-social-facebook"></i>
+                     </a>
+                </li>
+            </ul>
         </div>
         
         <div class="row">
-            <p> &copy; Copyright 2017. All rights reserved.
+            <p> &copy; Copyright 2018. All rights reserved.
                 <br>
-                This webpage was created by Adam Quigley.
+                This webpage was created by <a href="https://github.com/adamjq" target="_blank">
+                Adam Quigley</a>.
             </p>
         </div>
     </footer>

@@ -145,7 +145,7 @@ p {
 
 a:link,
 a:visited {
-    color: #E87E04;
+    color: #26A65B;
     text-decoration: none;
     border-bottom: 0.1rem solid #26A65B;
     padding-bottom: 0.1rem;
@@ -524,6 +524,20 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 1rem;
+}
+
+footer p a:link,
+footer p a:visited {
+    text-decoration: none;
+    color: #888;
+    border-bottom: 0.1rem solid transparent;
+}
+
+
+footer p a:hover,
+footer p a:active {
+    color: #ddd;
+    border-bottom: 0.1rem solid transparent;
 }
 
 
