@@ -1,6 +1,6 @@
 /*
-Base TAHITI GOLD: #E87E04
-Darker orange: #cf6d17
+Base Eucalyptus Green: #26A65B
+Darker Green: #208a4c
 */
 
 /* ------------------------------------------------*/
@@ -97,7 +97,10 @@ h3 {
 h3:after {
     display: block;
     height: 2px;
+    /* 
     background-color: #E87E04;
+    */
+    background-color: #26A65B;
     content: " ";
     width: 10rem;
     margin: 0 auto;
@@ -131,7 +134,7 @@ p {
 /* ------------------------------------------------*/
 
 .icon {
-    color: #E87E04;
+    color: #26A65B;
     padding-left: 1rem;
 }
 
@@ -144,7 +147,7 @@ a:link,
 a:visited {
     color: #E87E04;
     text-decoration: none;
-    border-bottom: 0.1rem solid #E87E04;
+    border-bottom: 0.1rem solid #26A65B;
     padding-bottom: 0.1rem;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
@@ -170,7 +173,7 @@ input[type=submit] {
     text-decoration: none;
     letter-spacing: 0.1rem;
     color: #fff; 
-    background-color: #E87E04;
+    background-color: #26A65B;
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
     border-radius: 10rem;
@@ -179,7 +182,7 @@ input[type=submit] {
 
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #208a4c;
 }
 
 
@@ -190,9 +193,6 @@ input[type=submit]:active {
 header {
     /* Hero image centered and fills whole viewport */
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/waiheke-island-hero.jpg);
-    /* alternative background */ /*
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/waiheke-island-hero.jpg);
-    */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hives-longshot-min.jpg);
     background-size: cover;
     background-position: center;
@@ -244,7 +244,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: solid 0.2rem #E87E04;
+    border-bottom: solid 0.2rem #26A65B;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
