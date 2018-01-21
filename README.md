@@ -7,7 +7,7 @@ The draft of the site is hosted on Github Pages and can be viewed [here](https:/
 ### Notable features:
 * 'Sticky' Navigation Bar that displays once the Main Navigation is not visible.
 * 'Smooth Scrolling' between anchors when using the Navigation Bars.
-* A full width Google Map, made with the [gmaps library](https://hpneo.github.io/gmaps/).
+* A full width Google Map, made with the [gmaps.js library](https://hpneo.github.io/gmaps/).
 * Use of [Ion Icon fonts](http://ionicons.com/).
 * Contact Form using PHP to send an email to the business**.
 * Responsive CSS3 using media queries to style for different device widths.
