@@ -1,5 +1,7 @@
 $(document).ready(function() {
     
+    
+    /* For the sticky navigation */
     $('#products').waypoint(function(direction) {
         
         if (direction === "down") {
@@ -9,6 +11,16 @@ $(document).ready(function() {
         }
     }, {
         offset: '60px;'
+    });
+    
+    
+    /* Navigation scroll */
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+     }, 1000);
     });
     
     
