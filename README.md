@@ -4,6 +4,10 @@ I designed and coded this single page website for Hidden Valley Honey, a New Zea
 <br>
 The draft of the site is hosted on Github Pages and can be viewed [here](https://adamjq.github.io/hidden-valley-honey-website/).
 
+<p align="center">
+  <img src="/screenshots/hidden-valley-honey-screenshot.png" width=90%>
+</p>
+
 ### Notable features:
 * 'Sticky' Navigation Bar that displays once the Main Navigation is not visible.
 * 'Smooth Scrolling' between anchors when using the Navigation Bars.
